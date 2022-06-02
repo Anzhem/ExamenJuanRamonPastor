@@ -15,9 +15,9 @@ public class main {
         System.out.println("Introduzca el número por teclado");
         int total = teclado.nextInt();
         int i;
-        for (i=1;i>total;i++){
+        for (i=0;i>total;i++){
             if(i%2!=0){
-                System.out.println(i);
+                System.out.println("El numeroo par es: "+ i);
             }
         }
     }
